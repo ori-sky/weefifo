@@ -3,6 +3,6 @@ for fifo in ~/.weechat/weechat_fifo_*
 do
 	while read line
 	do
-		echo $line >>$fifo
+		echo "$line" >>$fifo
 	done
 done
